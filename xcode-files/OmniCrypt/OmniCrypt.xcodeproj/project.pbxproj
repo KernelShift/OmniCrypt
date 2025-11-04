@@ -1,0 +1,616 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		F5C6A1DE2EB3EE4C00533CA7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5C6A1BF2EB3EE4A00533CA7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5C6A1C62EB3EE4B00533CA7;
+			remoteInfo = OmniCrypt;
+		};
+		F5C6A1E82EB3EE4C00533CA7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5C6A1BF2EB3EE4A00533CA7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5C6A1C62EB3EE4B00533CA7;
+			remoteInfo = OmniCrypt;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F5C6A2132EB3FFEA00533CA7 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 6;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F5C6A1C72EB3EE4B00533CA7 /* OmniCrypt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OmniCrypt.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5C6A1DD2EB3EE4C00533CA7 /* OmniCryptTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OmniCryptTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5C6A1E72EB3EE4C00533CA7 /* OmniCryptUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OmniCryptUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+		F5C6A2572EB4197700533CA7 /* Exceptions for "OmniCrypt" folder in "Copy Files" phase from "OmniCrypt" target */ = {
+			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
+			buildPhase = F5C6A2132EB3FFEA00533CA7 /* CopyFiles */;
+			membershipExceptions = (
+				Resources/omni,
+			);
+		};
+/* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		F5C6A1C92EB3EE4B00533CA7 /* OmniCrypt */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				F5C6A2572EB4197700533CA7 /* Exceptions for "OmniCrypt" folder in "Copy Files" phase from "OmniCrypt" target */,
+			);
+			path = OmniCrypt;
+			sourceTree = "<group>";
+		};
+		F5C6A1E02EB3EE4C00533CA7 /* OmniCryptTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = OmniCryptTests;
+			sourceTree = "<group>";
+		};
+		F5C6A1EA2EB3EE4C00533CA7 /* OmniCryptUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = OmniCryptUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F5C6A1C42EB3EE4B00533CA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5C6A1DA2EB3EE4C00533CA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5C6A1E42EB3EE4C00533CA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F5C6A1BE2EB3EE4A00533CA7 = {
+			isa = PBXGroup;
+			children = (
+				F5C6A1C92EB3EE4B00533CA7 /* OmniCrypt */,
+				F5C6A1E02EB3EE4C00533CA7 /* OmniCryptTests */,
+				F5C6A1EA2EB3EE4C00533CA7 /* OmniCryptUITests */,
+				F5C6A1C82EB3EE4B00533CA7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F5C6A1C82EB3EE4B00533CA7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F5C6A1C72EB3EE4B00533CA7 /* OmniCrypt.app */,
+				F5C6A1DD2EB3EE4C00533CA7 /* OmniCryptTests.xctest */,
+				F5C6A1E72EB3EE4C00533CA7 /* OmniCryptUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F5C6A1C62EB3EE4B00533CA7 /* OmniCrypt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5C6A1F12EB3EE4C00533CA7 /* Build configuration list for PBXNativeTarget "OmniCrypt" */;
+			buildPhases = (
+				F5C6A1C32EB3EE4B00533CA7 /* Sources */,
+				F5C6A1C42EB3EE4B00533CA7 /* Frameworks */,
+				F5C6A1C52EB3EE4B00533CA7 /* Resources */,
+				F5C6A2132EB3FFEA00533CA7 /* CopyFiles */,
+				F5C6A2162EB400CD00533CA7 /* Run Script */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				F5C6A1C92EB3EE4B00533CA7 /* OmniCrypt */,
+			);
+			name = OmniCrypt;
+			packageProductDependencies = (
+			);
+			productName = OmniCrypt;
+			productReference = F5C6A1C72EB3EE4B00533CA7 /* OmniCrypt.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F5C6A1DC2EB3EE4C00533CA7 /* OmniCryptTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5C6A1F42EB3EE4C00533CA7 /* Build configuration list for PBXNativeTarget "OmniCryptTests" */;
+			buildPhases = (
+				F5C6A1D92EB3EE4C00533CA7 /* Sources */,
+				F5C6A1DA2EB3EE4C00533CA7 /* Frameworks */,
+				F5C6A1DB2EB3EE4C00533CA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F5C6A1DF2EB3EE4C00533CA7 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				F5C6A1E02EB3EE4C00533CA7 /* OmniCryptTests */,
+			);
+			name = OmniCryptTests;
+			packageProductDependencies = (
+			);
+			productName = OmniCryptTests;
+			productReference = F5C6A1DD2EB3EE4C00533CA7 /* OmniCryptTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F5C6A1E62EB3EE4C00533CA7 /* OmniCryptUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5C6A1F72EB3EE4C00533CA7 /* Build configuration list for PBXNativeTarget "OmniCryptUITests" */;
+			buildPhases = (
+				F5C6A1E32EB3EE4C00533CA7 /* Sources */,
+				F5C6A1E42EB3EE4C00533CA7 /* Frameworks */,
+				F5C6A1E52EB3EE4C00533CA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F5C6A1E92EB3EE4C00533CA7 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				F5C6A1EA2EB3EE4C00533CA7 /* OmniCryptUITests */,
+			);
+			name = OmniCryptUITests;
+			packageProductDependencies = (
+			);
+			productName = OmniCryptUITests;
+			productReference = F5C6A1E72EB3EE4C00533CA7 /* OmniCryptUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F5C6A1BF2EB3EE4A00533CA7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					F5C6A1C62EB3EE4B00533CA7 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					F5C6A1DC2EB3EE4C00533CA7 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = F5C6A1C62EB3EE4B00533CA7;
+					};
+					F5C6A1E62EB3EE4C00533CA7 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = F5C6A1C62EB3EE4B00533CA7;
+					};
+				};
+			};
+			buildConfigurationList = F5C6A1C22EB3EE4A00533CA7 /* Build configuration list for PBXProject "OmniCrypt" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F5C6A1BE2EB3EE4A00533CA7;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = F5C6A1C82EB3EE4B00533CA7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F5C6A1C62EB3EE4B00533CA7 /* OmniCrypt */,
+				F5C6A1DC2EB3EE4C00533CA7 /* OmniCryptTests */,
+				F5C6A1E62EB3EE4C00533CA7 /* OmniCryptUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F5C6A1C52EB3EE4B00533CA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5C6A1DB2EB3EE4C00533CA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5C6A1E52EB3EE4C00533CA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F5C6A2162EB400CD00533CA7 /* Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\nAPP=\"${TARGET_BUILD_DIR}/${WRAPPER_NAME}\"\nHELPER=\"$APP/Contents/MacOS/omni\"\nchmod +x \"$HELPER\"\n/usr/bin/codesign --force --timestamp=none --sign - \"$HELPER\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F5C6A1C32EB3EE4B00533CA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5C6A1D92EB3EE4C00533CA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5C6A1E32EB3EE4C00533CA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F5C6A1DF2EB3EE4C00533CA7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5C6A1C62EB3EE4B00533CA7 /* OmniCrypt */;
+			targetProxy = F5C6A1DE2EB3EE4C00533CA7 /* PBXContainerItemProxy */;
+		};
+		F5C6A1E92EB3EE4C00533CA7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5C6A1C62EB3EE4B00533CA7 /* OmniCrypt */;
+			targetProxy = F5C6A1E82EB3EE4C00533CA7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F5C6A1EF2EB3EE4C00533CA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F5C6A1F02EB3EE4C00533CA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		F5C6A1F22EB3EE4C00533CA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = OmniCrypt/OmniCrypt.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"OmniCrypt/Preview Content\"";
+				DEVELOPMENT_TEAM = 6HVV66244H;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				ENABLE_USER_SELECTED_FILES = readwrite;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OmniCrypt/Info.plist;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Omni.OmniCrypt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				a = "";
+			};
+			name = Debug;
+		};
+		F5C6A1F32EB3EE4C00533CA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = OmniCrypt/OmniCrypt.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"OmniCrypt/Preview Content\"";
+				DEVELOPMENT_TEAM = 6HVV66244H;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				ENABLE_USER_SELECTED_FILES = readwrite;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OmniCrypt/Info.plist;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Omni.OmniCrypt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				a = "";
+			};
+			name = Release;
+		};
+		F5C6A1F52EB3EE4C00533CA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X7BP7V48JC;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Omni.OmniCryptTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OmniCrypt.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/OmniCrypt";
+			};
+			name = Debug;
+		};
+		F5C6A1F62EB3EE4C00533CA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X7BP7V48JC;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Omni.OmniCryptTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OmniCrypt.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/OmniCrypt";
+			};
+			name = Release;
+		};
+		F5C6A1F82EB3EE4C00533CA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X7BP7V48JC;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Omni.OmniCryptUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = OmniCrypt;
+			};
+			name = Debug;
+		};
+		F5C6A1F92EB3EE4C00533CA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X7BP7V48JC;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Omni.OmniCryptUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = OmniCrypt;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F5C6A1C22EB3EE4A00533CA7 /* Build configuration list for PBXProject "OmniCrypt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5C6A1EF2EB3EE4C00533CA7 /* Debug */,
+				F5C6A1F02EB3EE4C00533CA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5C6A1F12EB3EE4C00533CA7 /* Build configuration list for PBXNativeTarget "OmniCrypt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5C6A1F22EB3EE4C00533CA7 /* Debug */,
+				F5C6A1F32EB3EE4C00533CA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5C6A1F42EB3EE4C00533CA7 /* Build configuration list for PBXNativeTarget "OmniCryptTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5C6A1F52EB3EE4C00533CA7 /* Debug */,
+				F5C6A1F62EB3EE4C00533CA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5C6A1F72EB3EE4C00533CA7 /* Build configuration list for PBXNativeTarget "OmniCryptUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5C6A1F82EB3EE4C00533CA7 /* Debug */,
+				F5C6A1F92EB3EE4C00533CA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F5C6A1BF2EB3EE4A00533CA7 /* Project object */;
+}
